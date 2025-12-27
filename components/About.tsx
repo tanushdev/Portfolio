@@ -13,15 +13,15 @@ const About: React.FC = () => {
   const codeLines = useMemo(() => ({
     python: [
       `print("Hello, I'm ${PERSONAL_INFO.name}")`,
-      'print("Data Analyst | Software Developer")',
-      'print("WhoAmI() => Developer | Tech Explorer")',
-      'print("Passions: Anime, Football, AI/ML")',
+      'print("AI/ML Engineer | NLP Enthusiast")',
+      'print("WhoAmI() => Problem Solver | Tech Explorer")',
+      'print("Passions: Anime, Football, Batminton")',
     ],
     javascript: [
       `console.log("Hello, I'm ${PERSONAL_INFO.name}");`,
-      'console.log("Data Analyst | Software Developer");',
-      'console.log("WhoAmI() => Developer | Tech Explorer");',
-      'console.log("Passions: Anime, Football, AI/ML");',
+      'console.log("AI/ML Engineer | NLP Enthusiast");',
+      'console.log("WhoAmI() => Problem Solver | Tech Explorer");',
+      'console.log("Passions: Anime, Football, Batminton");',
     ],
   }), []);
 

@@ -80,7 +80,7 @@ const Experience: React.FC = () => {
         {/* Work Message */}
         {activeTab === "work" && (
           <div className="py-20 text-center opacity-60 font-mono text-lg md:text-2xl">
-            Currently seeking internships & opportunities 💼
+            Currently seeking internships & opportunities
           </div>
         )}
 
